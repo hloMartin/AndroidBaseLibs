@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
@@ -21,7 +22,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions{
+        abortOnError false
+    }
 
+}
+
+publish {
+    repoName= 'AndroidBaseLibs'
+    userOrg = 'martindodo'
+    groupId = 'com.dodo'
+    artifactId = 'baselibs'
+    publishVersion = '0.0.1'
+    desc = 'Oh hi, this is a base lib for android'
+    website = 'https://github.com/hloMartin/AndroidBaseLibs'
 }
 
 dependencies {
