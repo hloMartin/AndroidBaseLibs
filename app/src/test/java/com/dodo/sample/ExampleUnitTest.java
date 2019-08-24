@@ -1,4 +1,4 @@
-package com.dodo.baselibs;
+package com.dodo.sample;
 
 import org.junit.Test;
 

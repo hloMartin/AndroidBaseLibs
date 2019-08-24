@@ -3,7 +3,6 @@ package com.dodo.baselibs.utils
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
-import java.io.InputStream
 
 /**
  * 文件操作相关

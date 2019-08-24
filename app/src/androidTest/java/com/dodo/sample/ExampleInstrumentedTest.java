@@ -1,4 +1,4 @@
-package com.dodo.baselibs;
+package com.dodo.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

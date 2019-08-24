@@ -1,9 +1,7 @@
 package com.dodo.baselibs.utils
 
-import java.net.InetAddress
 import java.net.NetworkInterface
 import java.net.SocketException
-import java.util.Enumeration
 
 import android.content.Context
 import android.net.ConnectivityManager
